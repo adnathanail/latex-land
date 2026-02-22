@@ -17,6 +17,8 @@ Features
 - Custom keybindings
     - `Cmd+J` to **jump** from a line in source code to the corresponding location in a PDF, or the TikZiT editor, or from a selected element in the TikZiT editor back to the source code
     - `Cmd+Click` on a location in a PDF to the location in `.tex` source code
+    - `Cmd+D` to duplicate a file
+        - This won't work if you're in the TikZiT editor, open the text editor for the file first with `Cmd+J`
 
 ## Prerequisites
 

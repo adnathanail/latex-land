@@ -31,6 +31,10 @@
       },
       {
         "key": "cmd+d",
+        "command": "duplicate-file.execute"
+      },
+      {
+        "key": "cmd+d",
         "command": "-vstikzit.gui.deselectAll",
         "when": "!inputFocus && activeCustomEditorId == 'vstikzit.tikzEditor'"
       },
