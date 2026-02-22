@@ -1,21 +1,29 @@
 {
   "name": "LaTeX",
-  "image": "texlive/texlive:latest",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
 
   "customizations": {
     "vscode": {
       "extensions": [
         "James-Yu.latex-workshop",
         "valentjn.vscode-ltex",
-        "streetsidesoftware.code-spell-checker"
+        "axelrindle.duplicate-file",
+        "anthropic.claude-code"
       ],
       "settings": {
         "latex-workshop.latex.autoBuild.run": "onSave",
         "latex-workshop.view.pdf.viewer": "tab",
         "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
+        "ltex.java.path": "/usr",
         "editor.wordWrap": "on",
         "editor.minimap.enabled": false,
-        "editor.lineNumbers": "off"
+        "editor.lineNumbers": "off",
+        "remote.extensionKind": {
+          "GitHub.copilot": ["ui"],
+          "GitHub.copilot-chat": ["ui"]
+        }
       }
     }
   }

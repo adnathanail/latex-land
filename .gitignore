@@ -12,3 +12,4 @@
 *.blg
 *.bcf
 *.run.xml
+cache/
