@@ -35,6 +35,16 @@
         "when": "activeCustomEditorId == 'vstikzit.tikzEditor'"
       },
       {
+        "key": "cmd+j",
+        "command": "latex-workshop.synctex",
+        "when": "editorTextFocus && !config.latex-workshop.bind.altKeymap.enabled && editorLangId =~ /^latex$|^latex-expl3$|^doctex$/"
+      },
+      {
+        "key": "alt+cmd+j",
+        "command": "-latex-workshop.synctex",
+        "when": "editorTextFocus && !config.latex-workshop.bind.altKeymap.enabled && editorLangId =~ /^latex$|^latex-expl3$|^doctex$/"
+      },
+      {
         "key": "cmd+d",
         "command": "-vstikzit.gui.deselectAll",
         "when": "!inputFocus && activeCustomEditorId == 'vstikzit.tikzEditor'"
