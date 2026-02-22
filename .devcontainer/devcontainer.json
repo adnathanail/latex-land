@@ -10,7 +10,8 @@
         "James-Yu.latex-workshop",
         "valentjn.vscode-ltex",
         "axelrindle.duplicate-file",
-        "anthropic.claude-code"
+        "anthropic.claude-code",
+        "mathematic.vscode-latex"
       ],
       "settings": {
         "latex-workshop.latex.autoBuild.run": "onSave",
