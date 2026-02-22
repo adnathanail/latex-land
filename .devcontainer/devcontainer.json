@@ -18,6 +18,7 @@
         "latex-workshop.latex.autoBuild.run": "onSave",
         "latex-workshop.view.pdf.viewer": "tab",
         "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
+        "ltex.ltex-ls.path": "/opt/ltex-ls",
         "ltex.java.path": "/usr",
         "ltex.language": "en-GB",
         "ltex.dictionary": {
