@@ -11,13 +11,13 @@
   "contributes": {
     "keybindings": [
       {
-        "key": "backspace",
-        "command": "vstikzit.gui.delete",
+        "key": "delete",
+        "command": "-vstikzit.gui.delete",
         "when": "!inputFocus && activeCustomEditorId == 'vstikzit.tikzEditor'"
       },
       {
-        "key": "delete",
-        "command": "-vstikzit.gui.delete",
+        "key": "backspace",
+        "command": "vstikzit.gui.delete",
         "when": "!inputFocus && activeCustomEditorId == 'vstikzit.tikzEditor'"
       },
       {
@@ -36,10 +36,6 @@
       },
       {
         "key": "cmd+d",
-        "command": "duplicate-file.execute"
-      },
-      {
-        "key": "cmd+d",
         "command": "-vstikzit.gui.deselectAll",
         "when": "!inputFocus && activeCustomEditorId == 'vstikzit.tikzEditor'"
       },
@@ -54,9 +50,8 @@
         "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
       },
       {
-        "key": "cmd+k cmd+d",
-        "command": "-editor.action.moveSelectionToNextFindMatch",
-        "when": "editorFocus"
+        "key": "cmd+d",
+        "command": "duplicate-file.execute"
       }
     ]
   }
