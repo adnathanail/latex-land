@@ -7,20 +7,37 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        "anthropic.claude-code",
+        "axelrindle.duplicate-file",
         "James-Yu.latex-workshop",
         "valentjn.vscode-ltex",
-        "axelrindle.duplicate-file",
-        "anthropic.claude-code",
-        "mathematic.vscode-latex"
+        "mathematic.vscode-latex",
+        "alekskissinger.vstikzit"
       ],
       "settings": {
         "latex-workshop.latex.autoBuild.run": "onSave",
         "latex-workshop.view.pdf.viewer": "tab",
         "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
         "ltex.java.path": "/usr",
-        "editor.wordWrap": "on",
-        "editor.minimap.enabled": false,
-        "editor.lineNumbers": "off",
+        "ltex.language": "en-GB",
+        "ltex.dictionary": {
+          "en-GB": [
+            "eigendecomposition",
+            "ket",
+            "ketbra",
+            "unitaries",
+            "GHZ",
+            "Hadamard",
+            "CNOT",
+            "eigenbases",
+            "Choi-Jamiołkowski",
+            "Pauli"
+          ]
+        },
+        // "editor.wordWrap": "on",
+        // "editor.minimap.enabled": false,
+        // "editor.lineNumbers": "off",
+        // Disable GitHub Copilot
         "remote.extensionKind": {
           "GitHub.copilot": ["ui"],
           "GitHub.copilot-chat": ["ui"]
