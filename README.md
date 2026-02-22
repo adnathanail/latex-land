@@ -3,7 +3,7 @@
 Isolated VS Code + Docker environment for LaTeX documents.
 
 Features
-- [LtEX](https://valentjn.github.io/ltex/index.html)
+- [LTeX](https://valentjn.github.io/ltex/index.html)
     - Spelling + Grammar checking
     - `ltex-ls` is auto-installed in the Dockerfile, so the extension doesn't have to redownload it every time you open a new workspace
 - [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
@@ -12,8 +12,7 @@ Features
     - SyncTeX, for jumping back and forth between the PDF and the code
 - [TikZiT](https://tikzit.github.io)
     - Editing `.tikz` files, specifically for ZX-Diagrams
-
-- Keybindings
+- Custom keybindings
     - `Cmd+J` to **jump** from a line in source code to the corresponding location in a PDF, or the TikZiT editor, or from a selected element in the TikZiT editor back to the source code
     - `Cmd+Click` on a location in a PDF to the location in `.tex` source code
 
@@ -22,13 +21,7 @@ Features
 - [Docker](https://www.docker.com/) (or [OrbStack](https://orbstack.dev/))
 - VS Code with the [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
 
-## Usage
-
-### Direct
-
-Open this repo in VS Code and select **Reopen in Container** when prompted.
-
-### Symlink into another project
+## Usage (symlink)
 
 To use this environment in any LaTeX project without copying the config:
 
