@@ -21,11 +21,16 @@
         "when": "!inputFocus && activeCustomEditorId == 'vstikzit.tikzEditor'"
       },
       {
-        "key": "alt+cmd+t",
-        "command": "-workbench.action.closeOtherEditors"
+        "key": "cmd+j",
+        "command": "-workbench.action.togglePanel"
       },
       {
-        "key": "alt+cmd+t",
+        "key": "cmd+j",
+        "command": "vstikzit.openTikzEditor",
+        "when": "resourceExtname == '.html' && activeCustomEditorId != 'vstikzit.tikzEditor' || resourceExtname == '.tex' && activeCustomEditorId != 'vstikzit.tikzEditor' || resourceExtname == '.tikz' && activeCustomEditorId != 'vstikzit.tikzEditor'"
+      },
+      {
+        "key": "cmd+j",
         "command": "vstikzit.gui.viewTikzSource",
         "when": "activeCustomEditorId == 'vstikzit.tikzEditor'"
       },
