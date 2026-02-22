@@ -10,8 +10,12 @@ Features
     - Build on save
     - View file inline
     - SyncTeX, for jumping back and forth between the PDF and the code
-        - `Cmd+Click` on PDF to jump to source
-        - `Cmd+J` in code to jump to PDF
+- [TikZiT](https://tikzit.github.io)
+    - Editing `.tikz` files, specifically for ZX-Diagrams
+
+- Keybindings
+    - `Cmd+J` to **jump** from a line in source code to the corresponding location in a PDF, or the TikZiT editor, or from a selected element in the TikZiT editor back to the source code
+    - `Cmd+Click` on a location in a PDF to the location in `.tex` source code
 
 ## Prerequisites
 

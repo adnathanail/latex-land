@@ -1,0 +1,53 @@
+{
+  "name": "latex-land-keybindings",
+  "displayName": "LaTeX Land Keybindings",
+  "description": "Custom keybindings for LaTeX work in VS Code",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "contributes": {
+    "keybindings": [
+      {
+        "key": "backspace",
+        "command": "vstikzit.gui.delete",
+        "when": "!inputFocus && activeCustomEditorId == 'vstikzit.tikzEditor'"
+      },
+      {
+        "key": "delete",
+        "command": "-vstikzit.gui.delete",
+        "when": "!inputFocus && activeCustomEditorId == 'vstikzit.tikzEditor'"
+      },
+      {
+        "key": "alt+cmd+t",
+        "command": "-workbench.action.closeOtherEditors"
+      },
+      {
+        "key": "alt+cmd+t",
+        "command": "vstikzit.gui.viewTikzSource",
+        "when": "activeCustomEditorId == 'vstikzit.tikzEditor'"
+      },
+      {
+        "key": "cmd+d",
+        "command": "-vstikzit.gui.deselectAll",
+        "when": "!inputFocus && activeCustomEditorId == 'vstikzit.tikzEditor'"
+      },
+      {
+        "key": "cmd+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+      },
+      {
+        "key": "cmd+d",
+        "command": "-notebook.addFindMatchToSelection",
+        "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
+      },
+      {
+        "key": "cmd+k cmd+d",
+        "command": "-editor.action.moveSelectionToNextFindMatch",
+        "when": "editorFocus"
+      }
+    ]
+  }
+}

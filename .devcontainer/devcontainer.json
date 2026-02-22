@@ -36,9 +36,6 @@
             "Pauli"
           ]
         },
-        // "editor.wordWrap": "on",
-        // "editor.minimap.enabled": false,
-        // "editor.lineNumbers": "off",
         // Disable GitHub Copilot
         "remote.extensionKind": {
           "GitHub.copilot": ["ui"],
