@@ -1,0 +1,22 @@
+{
+  "name": "LaTeX",
+  "image": "texlive/texlive:latest",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "James-Yu.latex-workshop",
+        "valentjn.vscode-ltex",
+        "streetsidesoftware.code-spell-checker"
+      ],
+      "settings": {
+        "latex-workshop.latex.autoBuild.run": "onSave",
+        "latex-workshop.view.pdf.viewer": "tab",
+        "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
+        "editor.wordWrap": "on",
+        "editor.minimap.enabled": false,
+        "editor.lineNumbers": "off"
+      }
+    }
+  }
+}
