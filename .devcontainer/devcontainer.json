@@ -36,6 +36,7 @@
             "Pauli"
           ]
         },
+        "remote.autoForwardPorts": false,
         // Disable GitHub Copilot
         "remote.extensionKind": {
           "GitHub.copilot": ["ui"],
