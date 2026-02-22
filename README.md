@@ -40,3 +40,11 @@ To avoid committing the symlink in other repos, add `.devcontainer` to your giti
 ```bash
 echo '.devcontainer' >> .gitignore
 ```
+
+## Updating LTeX LS
+
+The `ltex-ls` language server is manually installed in the Dockerfile, to prevent it redownloading every time a new workspace is opened.
+
+The version used needs to match the version expected by the VS Code extension
+
+See the [VS Code extension changelog](https://valentjn.github.io/ltex/vscode-ltex/changelog.html) to check which version is the latest supported
