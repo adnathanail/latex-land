@@ -3,6 +3,8 @@
 Isolated VS Code + Docker environment for LaTeX documents.
 
 Features
+- LaTeX installation inside Dockerfile
+    - Prevents any collisions with your system LaTeX install
 - [LTeX](https://valentjn.github.io/ltex/index.html)
     - Spelling + Grammar checking
     - `ltex-ls` is auto-installed in the Dockerfile, so the extension doesn't have to redownload it every time you open a new workspace

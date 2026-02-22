@@ -7,6 +7,7 @@
   "engines": {
     "vscode": "^1.74.0"
   },
+  "extensionKind": ["workspace"],
   "contributes": {
     "keybindings": [
       {
