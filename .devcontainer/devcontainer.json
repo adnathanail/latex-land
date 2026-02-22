@@ -27,13 +27,21 @@
             "eigendecomposition",
             "ket",
             "ketbra",
+            "ketbras",
             "unitaries",
             "GHZ",
             "Hadamard",
+            "Hadamards",
             "CNOT",
+            "CNOTs",
             "eigenbases",
             "Choi-Jamiołkowski",
-            "Pauli"
+            "Pauli",
+            "unnormalized",
+            "arity",
+            "unfusing",
+            "biadjacency",
+            "Cliffords"
           ]
         },
         "remote.autoForwardPorts": false,
