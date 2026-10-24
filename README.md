@@ -30,7 +30,7 @@ Features
 To use this environment in any LaTeX project without copying the config:
 
 ```bash
-ln -s ~/Document/Uni/latex-land/.devcontainer .devcontainer
+ln -s ~/Documents/Projects/latex-land/.devcontainer .devcontainer
 ```
 
 Then open that project in VS Code and select **Reopen in Container**.
